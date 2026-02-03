@@ -1,0 +1,33 @@
+#top {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+#spacer {
+    height: 40px;
+    width: 100%;
+}
+
+
+#previous {
+    padding-right: 40px;
+}
+
+#next {
+    padding-left: 40px;
+} 
+
+#sources {
+    display: flex;
+    justify-content: center;
+}
