@@ -10,7 +10,7 @@
 
 #bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #spacer {
@@ -20,14 +20,24 @@
 
 
 #previous {
-    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 120px;
 }
 
 #next {
-    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
 } 
 
 #sources {
     display: flex;
     justify-content: center;
+}
+
+#heading {
+    text-align: center;
 }
