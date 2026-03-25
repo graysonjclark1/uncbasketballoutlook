@@ -48,7 +48,7 @@ reverse_tourney_map = {v: k for k, v in tourney_map.items()}
 
 predicted_class = rf.predict(X_2025)[0]
 predicted_label = reverse_tourney_map.get(predicted_class, "Unknown")
-
+print(predicted_label)
 
 result = {"season": "2025-26", "prediction": predicted_label}
 

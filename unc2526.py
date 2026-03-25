@@ -23,7 +23,10 @@ for row in rows:
     if not date_cell:
         continue
 
+    # oppenent = row.select_one('td[data-stat="opp_name"]')
+    # print(oppenent.get_text(strip=True))
 
+    
     csk_value = date_cell.get("csk")
     if csk_value > today:
         break
